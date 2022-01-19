@@ -1,20 +1,20 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { IoIosPerson } from "react-icons/io";
 import { AiOutlineHeart } from "react-icons/ai";
+import { IoIosPerson } from "react-icons/io";
 
 const NavBar = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="xxl" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">
             <img
               alt="error al cargar"
-              src="https://img2.freepng.es/20180329/cbw/kisspng-gouache-paintbrush-painting-brushes-5abc9479f06110.3299404315223082179846.jpg"
+              src="/resources/img/Recurso32.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
