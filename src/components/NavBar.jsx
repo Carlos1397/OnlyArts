@@ -5,13 +5,14 @@ import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { IoIosPerson } from 'react-icons/io'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/dashboard">
             <img
               alt="error al cargar"
               src="/resources/img/Recurso32.png"
@@ -28,10 +29,18 @@ const NavBar = () => {
           />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="/artists">Artists</Nav.Link>
-              <Nav.Link href="/pictures">Pictures</Nav.Link>
-              <Nav.Link href="/about-us">AboutUs</Nav.Link>
+              <Nav.Link as={Link} to="/dashboard">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/dashboard/artists">
+                Artists
+              </Nav.Link>
+              <Nav.Link as={Link} to="/dashboard/pictures">
+                Pictures
+              </Nav.Link>
+              <Nav.Link as={Link} to="/dashboard/about-us">
+                AboutUs
+              </Nav.Link>
             </Nav>
             <Nav>
               <NavDropdown

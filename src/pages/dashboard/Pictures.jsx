@@ -1,6 +1,6 @@
 import React from 'react'
 
-function pictures() {
+function Pictures() {
   return (
     <div>
       <h1>Pictures</h1>
@@ -8,4 +8,4 @@ function pictures() {
   )
 }
 
-export default pictures
+export default Pictures

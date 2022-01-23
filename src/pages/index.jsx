@@ -1,17 +1,11 @@
-import React from 'react'
-
-const Home = () => {
+import { Link } from 'react-router-dom'
+function Home() {
   return (
-    <div
-      className="Container"
-      style={{
-        padding: 90,
-        background: 'red',
-        display: 'flex',
-        height: '30vh'
-      }}
-    >
-      <h1>Home</h1>
+    <div className="grid h-screen place-content-center text-center">
+      <h1>Project OnlyArts</h1>
+      <Link to="/dashboard" className="btn mt-2">
+        Go to dashboard
+      </Link>
     </div>
   )
 }
