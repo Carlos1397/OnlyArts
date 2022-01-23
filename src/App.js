@@ -6,6 +6,7 @@ import AboutUs from './pages/dashboard/About-us'
 import Artists from './pages/dashboard/Artists'
 import Home from './pages/dashboard/Home'
 import Pictures from './pages/dashboard/Pictures'
+import HomeProfile from './pages/dashboard/profile/HomeProfile'
 import Index from './pages/Index'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="artists" element={<Artists />} />
           <Route path="pictures" element={<Pictures />} />
           <Route path="about-us" element={<AboutUs />} />
+          <Route path="profile" element={<HomeProfile />} />
         </Route>
         <Route path="*" element={<Page404 />} />
       </Routes>
