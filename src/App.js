@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
 import LayoutDashboard from './layouts/LayoutDashboard'
 import Page404 from './pages/404'
 import RecoveryPass from './pages/auth/recoveryPassword'

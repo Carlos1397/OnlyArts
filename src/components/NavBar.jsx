@@ -15,7 +15,7 @@ const NavBar = () => {
           <Navbar.Brand as={Link} to="/dashboard">
             <img
               alt="error al cargar"
-              src="/resources/img/Recurso32.png"
+              src="/resources/img/logo.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
