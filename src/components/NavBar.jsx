@@ -49,11 +49,11 @@ const NavBar = () => {
                 id="basic-nav-dropdown"
                 drop="start"
               >
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item as={Link} to="/dashboard/profile">
                   Config. Cuenta
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item as={Link} to="/login">
                   Cerrar Sesión
                 </NavDropdown.Item>
               </NavDropdown>

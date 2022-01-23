@@ -18,9 +18,7 @@ function RecoveryPass(props) {
             className="tw-w-full tw-shadow tw-appearance-none tw-border tw-border-black tw-py-2 tw-px-3 tw-text-gray-700 tw-leading-tight tw-focus:outline-none tw-focus:shadow-outline"
             type="email"
           />
-          <button className="tw-btnPrincipal btn-red tw-mx-4">
-            Restablecer contraseña
-          </button>
+          <button className="btn-red tw-mx-4">Restablecer contraseña</button>
         </div>
         <div className="tw-flex tw-flex-col tw-gap-2">
           <div className="tw-flex tw-flex-row tw-gap-4">
