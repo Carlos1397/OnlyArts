@@ -1,10 +1,10 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import { AiOutlineHeart } from "react-icons/ai";
-import { IoIosPerson } from "react-icons/io";
+import React from 'react'
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import { AiOutlineHeart } from 'react-icons/ai'
+import { IoIosPerson } from 'react-icons/io'
 
 const NavBar = () => {
   return (
@@ -19,7 +19,7 @@ const NavBar = () => {
               height="30"
               className="d-inline-block align-top"
             />
-            {"  "}
+            {'  '}
             OnlyArts
           </Navbar.Brand>
           <Navbar.Toggle
@@ -67,7 +67,7 @@ const NavBar = () => {
         </Container>
       </Navbar>
     </>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar
