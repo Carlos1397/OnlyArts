@@ -2,12 +2,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LayoutDashboard from './layouts/LayoutDashboard'
 import Page404 from './pages/404'
 import RecoveryPass from './pages/auth/recoveryPassword'
+import Register from './pages/auth/register'
 import AboutUs from './pages/dashboard/About-us'
 import Artists from './pages/dashboard/Artists'
 import Home from './pages/dashboard/Home'
 import Pictures from './pages/dashboard/Pictures'
 import HomeProfile from './pages/dashboard/profile/HomeProfile'
-import Index from './pages/Index'
+import Index from './pages/index'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="auth/recovery-pass" element={<RecoveryPass />} />
+        <Route path="auth/register" element={<Register />} />
         <Route path="dashboard" element={<LayoutDashboard />}>
           <Route index element={<Home />} />
           <Route path="artists" element={<Artists />} />
