@@ -7,7 +7,7 @@ import Artists from './pages/dashboard/Artists'
 import Home from './pages/dashboard/Home'
 import Pictures from './pages/dashboard/Pictures'
 import HomeProfile from './pages/dashboard/profile/HomeProfile'
-import Index from './pages/Index'
+import Index from './pages/index'
 
 function App() {
   return (
