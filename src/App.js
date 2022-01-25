@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LayoutDashboard from './layouts/LayoutDashboard'
 import Page404 from './pages/404'
+import LoginPage from './pages/auth/login/login'
 import RecoveryPass from './pages/auth/recoveryPassword'
 import Register from './pages/auth/register'
 import AboutUs from './pages/dashboard/About-us'
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="auth/recovery-pass" element={<RecoveryPass />} />
         <Route path="auth/register" element={<Register />} />
+        <Route path="auth/login" element={<LoginPage />} />
         <Route path="dashboard" element={<LayoutDashboard />}>
           <Route index element={<Home />} />
           <Route path="artists" element={<Artists />} />
